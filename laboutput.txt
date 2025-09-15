@@ -17,12 +17,12 @@ FAIL: test_0 (__main__.lab1b.test_0)
 [Lab 1] - [Investigation 4] - string objects & printing - Test for file creation: ./lab1b.py
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/home/oem/ops445/lab4/./CheckLab1.py", line 98, in test_0
+  File "/home/oem/ops445/lab1/./CheckLab1.py", line 98, in test_0
     self.assertTrue( os.path.exists('./lab1b.py'), msg=error_output)
 AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.044s
+Ran 5 tests in 0.037s
 
 FAILED (failures=1)
 OPS445 Lab Report - System Information for running ./CheckLab1.py
@@ -33,6 +33,6 @@ OPS445 Lab Report - System Information for running ./CheckLab1.py
     Python executable: /usr/bin/python3
     Python version:  3.12.3 (main, Nov  6 2024, 18:32:19) [GCC 13.2.0]
     OS Platform: linux
-    Working Directory: /home/oem/ops445/lab4
-    Start at: Fri Jun  6 21:16:10 2025
+    Working Directory: /home/oem/ops445/lab1
+    Start at: Sun Sep 14 22:32:29 2025
 =================================================================
