@@ -2,14 +2,11 @@
 
 import sys
 
+# require exactly 2 additional args (name, age)
 if len(sys.argv) != 3:
-
     print(f"Usage: {sys.argv[0]} name age")
-
-    sys.exit(0)
-
+    sys.exit()
 
 name = sys.argv[1]
-age  = sys.argv[2]
-
-print("Hi " + name + ", you are " + age + " years old.")
+age = int(sys.argv[2])
+print(f'Hi {name}, you are {age} years old.')
